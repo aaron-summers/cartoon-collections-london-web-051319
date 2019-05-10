@@ -16,4 +16,5 @@ end
 
 def find_the_cheese(strings)
   cheese_types = ["cheddar", "gouda", "camembert"]
+  strings.none?(cheese_types)
 end
