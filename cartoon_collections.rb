@@ -5,7 +5,8 @@ def roll_call_dwarves(names)
 end
 
 def summon_captain_planet(calls)
-  new_calls = calls.split.map(&:capitalize).join(' ')
+  new_calls = calls.split
+  new_calls.map(&:capitalize).join(' ')
   return new_calls
 end
 
