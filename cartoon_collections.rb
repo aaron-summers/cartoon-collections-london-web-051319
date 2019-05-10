@@ -6,7 +6,7 @@ end
 
 def summon_captain_planet(calls)
   new_calls = calls.map(&:capitalize)
-  newer_calls = new.map {|x| x + "!"}
+  newer_calls = new_calls.map {|x| x + "!"}
   return newer_calls
 end
 
